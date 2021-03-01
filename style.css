@@ -1,0 +1,37 @@
+
+body 
+{
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+#bloc_page
+{
+    width: 100%;
+	max-width: 1200px;
+}
+
+header 
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav
+{
+    display: flex;
+    align-items: center;
+}
+
+.nav__list
+{
+    display: flex;
+}
+
+.nav__link
+{
+    list-style: none;
+	padding-left: 30px;
+}
+
