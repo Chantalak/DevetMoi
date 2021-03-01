@@ -12,12 +12,14 @@ body
 	max-width: 1200px;
 }
 
+/*entête*/
 header 
 {
 	display: flex;
 	justify-content: space-between;
 }
 
+/*nav*/
 .nav
 {
     display: flex;
@@ -35,3 +37,135 @@ header
 	padding-left: 30px;
 }
 
+/*main*/
+main 
+{
+	margin-top: 0px;
+}
+
+/*bannière*/
+.banniere
+{
+    height: 450px;
+	position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banniere__Img
+{
+   position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.banniere__Img img
+{
+    object-fit: cover;
+}
+
+.banniere__logo
+{
+    position: absolute;
+}
+
+.banniere__titre
+{
+    position: absolute;
+    color: white;
+	font-weight: 400;
+    top: 60%;
+}
+
+/*section*/
+.bloc
+{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.bloc__ + .bloc__info
+{
+    margin-top: 30px;
+	max-width: 800px;
+}
+
+.bloc__
+{
+    color: rgb(87,87,87);
+	font-size: 1.4em;
+	text-align: center;
+}
+
+.bloc__info
+{
+    display: flex;
+	justify-content: space-around;
+}
+
+.bloc__info figure
+{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 20px 0 20px;
+}
+
+.bloc__info h2
+{
+    font-size: 1.4em;
+	font-weight: 400;    
+    text-transform: uppercase;
+}
+
+.bloc__info p
+{
+    font-size: 0.8em;
+	text-align: center;
+}
+
+.citation 
+{
+    text-align: center;
+	color: rgb(87,87,87);
+    
+}
+
+.citation blockquote
+{
+    font-size: 1.3em;
+}
+
+.citation cite
+{
+    font-weight: 300;
+}
+
+/*footer*/
+footer 
+{
+	background-color: #5b359d;
+	padding-top: 18px;
+}
+
+footer p
+{
+    color: white;
+	text-align: center;
+	font-weight: 400;
+}
+
+.logo 
+{
+    display: flex;
+	justify-content: center;
+}
+
+.logo i
+{
+	color: rgba(255, 255, 255, .6);
+	margin: 0 40px 0 40px;
+}

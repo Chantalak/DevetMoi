@@ -16,9 +16,9 @@
         <div id="bloc_page">
              <!--header-->
             <header>
-                <p>
+                <div>
                     <img src="images/logo_long.png" alt="logo du site" />
-                </p>
+                </div>
 
                 <nav class="nav">
                     <ul class="nav nav__list">
@@ -28,21 +28,22 @@
                 </nav>
             </header>
 
-            
             <!--main-->
             <main>
-                <div class="banniere">
-                <img src="body/backgroung_image.jpg" alt="photo d'un bureau" />
-                <img src="logo/logo_long.png" alt="logo du site" />
-                <h1>Agence de graphisme</h1>
+                <div class="banniere" >
+                    <img class="banniere__Img" src="images/backgroung_image.jpg" alt="photo d'un bureau" /> 
+                    <img class="banniere__logo" src="images/logo_long.png" alt="logo du site" />
+                    <h1 class="banniere__titre">Agence de graphisme</h1>
                 </div>
+                
 
-                <section>
-                    <p>Mon petit graphisme est une agence de graphisme qui aide les entreprises à créer des visuels attractifs.</p>
+                <section class="bloc">
+                    <p class="bloc__">Mon petit graphisme est une agence de graphisme qui aide les entreprises à<br>
+                    créer des visuels attractifs.</p>
                     
-                    <div class="bloc">
-                        <figure class="bloc__info">
-                            <img src="body/graphic-design.png" alt="logo graphisme"/>
+                    <div class="bloc__info">
+                        <figure class="bloc__info--plus">
+                            <img src="images/graphic-design.png" alt="logo graphisme"/>
                             <figcaption>
                                 <h2>Graphisme</h2>
                                 <p>
@@ -54,8 +55,8 @@
                             </figcaption>
                         </figure> 
 
-                        <figure class="bloc__info">
-                            <img src="body/strategie.png" alt="logo stratégie"/>
+                        <figure class="bloc__info--plus">
+                            <img src="images/strategie.png" alt="logo stratégie"/>
                             <figcaption>
                                 <h2>Stratégie</h2>
                                 <p>
@@ -67,8 +68,8 @@
                             </figcaption>
                         </figure>
 
-                        <figure class="bloc__info">
-                            <img src="body/illustrations.png" alt="logo illustrations"/>
+                        <figure class="bloc__info--plus">
+                            <img src="images/illustrations.png" alt="logo illustrations"/>
                             <figcaption>
                                 <h2>Illustrations</h2>
                                 <p>
@@ -82,19 +83,21 @@
                     </div>
                 </section>
 
-                <blockquote>
-                "Mon petit graphisme est une excellente agence de graphisme.<br>
-                Les graphistes sont à l'écoute des besoins et m'ont permis de<br>
-                renouveler complètement la carte de mon restaurant."    
-                </blockquote>
-                <cite>
-                Amandine, restauratrice    
-                </cite>
+                <div class="citation">
+                    <blockquote>
+                    "Mon petit graphisme est une excellente agence de graphisme.<br>
+                    Les graphistes sont à l'écoute des besoins et m'ont permis de<br>
+                    renouveler complètement la carte de mon restaurant."    
+                    </blockquote>
+                    <cite>
+                    Amandine, restauratrice    
+                    </cite>
+                </div>
             </main>
 
              <!--footer-->
             <footer>
-                <p>Mon petit graphisme - Agence de graphisme basée à Paris</p>
+                <span>Mon petit graphisme - Agence de graphisme basée à Paris</>
 
                 <div class="logo">
                     <i class="fab fa-twitter"></i>
