@@ -1,2 +1,2 @@
 # DevetMoi
-Intégration d'une maquette en HTML et en Sass
+Intégration d'une maquette en HTML et en Sass.
