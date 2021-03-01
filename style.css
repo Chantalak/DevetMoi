@@ -51,12 +51,10 @@ main
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 .banniere__Img
 {
-   position: absolute;
     width: 100%;
     height: 100%;
 }
@@ -69,6 +67,7 @@ main
 .banniere__logo
 {
     position: absolute;
+    width: 20%;
 }
 
 .banniere__titre
@@ -89,7 +88,6 @@ main
 
 .bloc__ + .bloc__info
 {
-    margin-top: 30px;
 	max-width: 800px;
 }
 
@@ -98,6 +96,7 @@ main
     color: rgb(87,87,87);
 	font-size: 1.4em;
 	text-align: center;
+    margin: 50px;
 }
 
 .bloc__info
@@ -148,10 +147,10 @@ main
 footer 
 {
 	background-color: #5b359d;
-	padding-top: 18px;
+    padding-top: 18px;
 }
 
-footer p
+.info
 {
     color: white;
 	text-align: center;
@@ -162,10 +161,31 @@ footer p
 {
     display: flex;
 	justify-content: center;
+    padding-top: 18px;
 }
 
 .logo i
 {
 	color: rgba(255, 255, 255, .6);
 	margin: 0 40px 0 40px;
+    font-size: 2em;
+}
+
+.foot
+{
+   display: flex;
+	justify-content: space-around; 
+}
+
+.foot__add h2
+{
+    color: rgba(255, 255, 255, .6);
+	margin-top: 30px;    
+	font-weight: 400;
+    font-size: 1.0em;
+}
+
+.foot__add li, .foot__add p
+{
+    color: white;
 }
